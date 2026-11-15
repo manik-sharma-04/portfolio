@@ -2,7 +2,7 @@
 
 A clean, modern, and mobile-responsive personal portfolio website built with pure HTML5, CSS3, and lightweight vanilla JavaScript. Designed for university evaluation and professional presentation.
 
-- **Live Site**: [https://manik-sharma-04.github.io/portfolio/](https://manik-sharma-04.github.io/portfolio/)
+- **Live Site**: [https://manik-sharma-04.github.io/portfolio/)
 - **Author**: Manik Sharma (CSE & AI Student | Machine Learning Developer)
 - **Repository**: [https://github.com/manik-sharma-04/portfolio](https://github.com/manik-sharma-04/portfolio)
 
