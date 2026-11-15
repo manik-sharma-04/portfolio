@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Manik Sharma - CSE & AI Student and Machine Learning Developer.">
+  <meta name="author" content="Manik Sharma">
+  <title>Manik Sharma | CSE & AI Student | Machine Learning Developer</title>
+  
+  <!-- Google Fonts: Playfair Display for elegant serif headings, Plus Jakarta Sans for clean readable body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       IMAGE FILENAME REFERENCE MANIFEST
+       =========================================================
+       All your image filenames are centralized here for easy reference.
+       Default extensions are set to .jpg below.
+       If your image file is a .png or .jpeg, simply edit the extension in the
+       corresponding <img> tag in the HTML sections below.
+       
+       1. Profile Image:          assets/images/profile.jpg
+       2. Car Price Project:      assets/images/project-car-price.jpg
+       3. Calories Burnt Project: assets/images/project-calories.jpg
+       4. HR Analytics Project:   assets/images/project-hr-analytics.jpg
+       5. Azure AI (AI-900):      assets/images/certificate-ai900.jpg
+       6. Azure Fund. (AZ-900):   assets/images/certificate-az900.jpg
+       7. Resume PDF:             assets/resume/Manik-Sharma-Resume.pdf
+       ========================================================= -->
+
+  <!-- =========================================================
+       HEADER & NAVIGATION BAR
+       Semantic <header> and <nav> elements for accessibility and SEO.
+       ========================================================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Manik Sharma Home">
+        <span class="logo-mark">MS</span>
+        <span class="logo-text">Manik Sharma</span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger Button -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       MAIN CONTENT CONTAINER
+       ========================================================= -->
+  <main>
+
+    <!-- =======================================================
+         HERO SECTION (#home)
+         Introduces Manik Sharma, headline, tagline, and call-to-actions.
+         ======================================================= -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-title">Manik Sharma</h1>
+          <p class="hero-tagline">CSE &amp; AI Student | Machine Learning Developer</p>
+          <p class="hero-summary">
+            Specializing in data-driven intelligence, predictive modeling, and scalable machine learning workflows.
+          </p>
+          
+          <!-- Call to action buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="assets/resume/Manik-Sharma-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="profile-card">
+            <!-- Profile Image Container with fallback placeholder styling -->
+            <div class="image-frame">
+              <!-- NOTE: Change the file extension here if your image is .png or .jpg -->
+              <img src="assets/images/profile.jpeg" alt="Portrait photo of Manik Sharma" class="profile-img" loading="eager">
+              <div class="image-fallback-badge">
+                <span class="badge-icon">👨‍💻</span>
+                <span class="badge-label">Manik Sharma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         ABOUT SECTION (#about)
+         Detailed bio highlighting student background and passion.
+         ======================================================= -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Get to know me</p>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-card">
+          <div class="about-text-content">
+            <p class="bio-paragraph">
+              I am a Computer Science and Artificial Intelligence student passionate about the entire data lifecycle. From extracting raw information and visualizing complex metrics to building and deploying predictive models in the cloud, I focus on creating scalable, data-driven solutions. I thrive on bridging the gap between theoretical algorithms and actionable intelligence.
+            </p>
+          </div>
+
+          <!-- Highlight Pillars -->
+          <div class="about-highlights-grid">
+            <div class="highlight-item">
+              <div class="highlight-icon">📊</div>
+              <h3 class="highlight-title">Data Lifecycle</h3>
+              <p class="highlight-desc">Extracting, cleaning, exploring, and deriving insights from complex raw data.</p>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🤖</div>
+              <h3 class="highlight-title">Predictive ML</h3>
+              <p class="highlight-desc">Building regression, classification, and ensemble algorithms to solve practical problems.</p>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">☁️</div>
+              <h3 class="highlight-title">Cloud Solutions</h3>
+              <p class="highlight-desc">Leveraging modern cloud ecosystems like Microsoft Azure for scalable intelligence.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         SKILLS SECTION (#skills)
+         Technical proficiencies: Python, MySQL, Power BI, ML, Azure.
+         ======================================================= -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Technical Toolbox</p>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1: Python -->
+          <article class="skill-card">
+            <div class="skill-icon-box">🐍</div>
+            <h3 class="skill-name">Python</h3>
+            <p class="skill-desc">Core programming for data structures, algorithmic problems, and machine learning pipelines.</p>
+            <span class="skill-tag">Language</span>
+          </article>
+
+          <!-- Skill 2: MySQL -->
+          <article class="skill-card">
+            <div class="skill-icon-box">🗄️</div>
+            <h3 class="skill-name">MySQL</h3>
+            <p class="skill-desc">Relational database design, query optimization, complex joins, and data extraction.</p>
+            <span class="skill-tag">Database</span>
+          </article>
+
+          <!-- Skill 3: Power BI -->
+          <article class="skill-card">
+            <div class="skill-icon-box">📈</div>
+            <h3 class="skill-name">Power BI</h3>
+            <p class="skill-desc">Interactive business dashboards, data modeling, KPI tracking, and visual analytics.</p>
+            <span class="skill-tag">BI &amp; Analytics</span>
+          </article>
+
+          <!-- Skill 4: Machine Learning -->
+          <article class="skill-card">
+            <div class="skill-icon-box">🧠</div>
+            <h3 class="skill-name">Machine Learning</h3>
+            <p class="skill-desc">Supervised learning, regression, decision trees, random forests, and model evaluation.</p>
+            <span class="skill-tag">AI &amp; Algorithms</span>
+          </article>
+
+          <!-- Skill 5: Microsoft Azure Services -->
+          <article class="skill-card">
+            <div class="skill-icon-box">☁️</div>
+            <h3 class="skill-name">Microsoft Azure Services</h3>
+            <p class="skill-desc">Cloud architecture fundamentals, Azure AI workloads, and scalable cloud deployments.</p>
+            <span class="skill-tag">Cloud Infrastructure</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         PROJECTS SECTION (#projects)
+         Showcase of 3 machine learning projects with model details.
+         ======================================================= -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Applied Machine Learning</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Car Price Prediction -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <!-- NOTE: Change the file extension here if your image is .png or .jpg -->
+              <img src="assets/images/project-car-price.png" alt="Car Price Prediction Project Screenshot" class="project-img" loading="lazy">
+              <div class="project-image-placeholder">
+                <span class="placeholder-icon">🚗</span>
+                <span class="placeholder-text">Car Price Prediction</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Car Price Prediction</h3>
+              <p class="project-description">
+                A machine learning project to predict the selling price of used cars based on features like present price, kilometers driven, fuel type, transmission and car age.
+              </p>
+              <div class="project-models">
+                <strong>Models used:</strong> Linear Regression, Decision Trees, Random Forest.
+              </div>
+              <div class="project-tags">
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Regression</span>
+                <span class="tag">Scikit-Learn</span>
+                <span class="tag">Python</span>
+              </div>
+              <div class="project-actions">
+                <!-- Replace 'https://github.com/manik-sharma-04' with specific repo link when available, e.g. 'https://github.com/manik-sharma-04/car-price-prediction' -->
+                <a href="https://github.com/manik-sharma-04" target="_blank" rel="noopener noreferrer" class="btn btn-card">
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Calories Burnt Prediction -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <!-- NOTE: Change the file extension here if your image is .png or .jpg -->
+              <img src="assets/images/project-calories.png" alt="Calories Burnt Prediction Project Screenshot" class="project-img" loading="lazy">
+              <div class="project-image-placeholder">
+                <span class="placeholder-icon">🔥</span>
+                <span class="placeholder-text">Calories Burnt Prediction</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Calories Burnt Prediction</h3>
+              <p class="project-description">
+                A machine learning project that predicts the number of calories burnt during exercise based on personal and workout-related features.
+              </p>
+              <div class="project-models">
+                <strong>Models used:</strong> Random Forest Regressor, Gradient Boosting Regressor.
+              </div>
+              <div class="project-tags">
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Gradient Boosting</span>
+                <span class="tag">Ensemble Models</span>
+                <span class="tag">Python</span>
+              </div>
+              <div class="project-actions">
+                <!-- Replace 'https://github.com/manik-sharma-04' with specific repo link when available, e.g. 'https://github.com/manik-sharma-04/calories-burnt-prediction' -->
+                <a href="https://github.com/manik-sharma-04" target="_blank" rel="noopener noreferrer" class="btn btn-card">
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: HR Analytics - Employee Attrition Prediction -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <!-- NOTE: Change the file extension here if your image is .png or .jpg -->
+              <img src="assets/images/project-hr-analytics.png" alt="HR Analytics Employee Attrition Prediction Screenshot" class="project-img" loading="lazy">
+              <div class="project-image-placeholder">
+                <span class="placeholder-icon">👥</span>
+                <span class="placeholder-text">HR Analytics</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">HR Analytics - Employee Attrition Prediction</h3>
+              <p class="project-description">
+                Analyzes HR data and builds a machine learning model to predict employee attrition. The goal is to understand the factors influencing employee turnover and apply ML techniques to predict attrition.
+              </p>
+              <div class="project-models">
+                <strong>Focus:</strong> Exploratory Data Analysis, Classification, Turnover Modeling.
+              </div>
+              <div class="project-tags">
+                <span class="tag">Data Analytics</span>
+                <span class="tag">Classification</span>
+                <span class="tag">Predictive Modeling</span>
+                <span class="tag">Python</span>
+              </div>
+              <div class="project-actions">
+                <!-- Replace 'https://github.com/manik-sharma-04' with specific repo link when available, e.g. 'https://github.com/manik-sharma-04/hr-attrition-prediction' -->
+                <a href="https://github.com/manik-sharma-04" target="_blank" rel="noopener noreferrer" class="btn btn-card">
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         CERTIFICATIONS SECTION (#certifications)
+         Official Microsoft Cloud and AI certifications.
+         ======================================================= -->
+    <section id="certifications" class="section certifications-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Verified Credentials</p>
+          <h2 class="section-title">Certifications</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="certifications-grid">
+          
+          <!-- Certification 1: Microsoft Azure AI Fundamentals (AI-900) -->
+          <article class="cert-card">
+            <div class="cert-image-box">
+              <!-- NOTE: Change the file extension here if your image is .png or .jpg -->
+              <img src="assets/images/certificate-ai900.png" alt="Microsoft Azure AI Fundamentals (AI-900) Certificate Badge" class="cert-img" loading="lazy">
+              <div class="cert-image-placeholder">
+                <span class="cert-placeholder-icon">🤖</span>
+                <span class="cert-placeholder-code">AI-900</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer">Microsoft Certified</span>
+              <h3 class="cert-title">Microsoft Azure AI Fundamentals</h3>
+              <p class="cert-code">Exam AI-900</p>
+              <p class="cert-desc">
+                Foundational knowledge of machine learning, artificial intelligence concepts, and related Microsoft Azure cloud services.
+              </p>
+            </div>
+          </article>
+
+          <!-- Certification 2: Microsoft Azure Fundamentals (AZ-900) -->
+          <article class="cert-card">
+            <div class="cert-image-box">
+              <!-- NOTE: Change the file extension here if your image is .png or .jpg -->
+              <img src="assets/images/certificate-az900.png" alt="Microsoft Azure Fundamentals (AZ-900) Certificate Badge" class="cert-img" loading="lazy">
+              <div class="cert-image-placeholder">
+                <span class="cert-placeholder-icon">☁️</span>
+                <span class="cert-placeholder-code">AZ-900</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer">Microsoft Certified</span>
+              <h3 class="cert-title">Microsoft Azure Fundamentals</h3>
+              <p class="cert-code">Exam AZ-900</p>
+              <p class="cert-desc">
+                Core understanding of cloud concepts, Azure architectural components, governance, security, and compliance.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         CONTACT SECTION (#contact)
+         Direct communication channels: Email, LinkedIn, GitHub.
+         ======================================================= -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Let's Connect</p>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-card">
+          <p class="contact-intro">
+            Whether you would like to discuss machine learning projects, discuss data analytics, or explore opportunities, my inbox is always open.
+          </p>
+
+          <div class="contact-links-grid">
+            <!-- Email -->
+            <a href="mailto:maniksharmawork04@gmail.com" class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-info">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">maniksharmawork04@gmail.com</span>
+              </div>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/manik-sharma-529869363/" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <div class="contact-icon">💼</div>
+              <div class="contact-info">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">manik-sharma-529869363</span>
+              </div>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/manik-sharma-04" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <div class="contact-icon">💻</div>
+              <div class="contact-info">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/manik-sharma-04</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+       Semantic <footer> with copyright and back-to-top anchor.
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-copy">&copy; 2026 Manik Sharma. Built with semantic HTML &amp; modern CSS.</p>
+      <a href="#home" class="footer-back-to-top" aria-label="Back to top">
+        ↑ Back to Top
+      </a>
+    </div>
+  </footer>
+
+  <!-- Light JavaScript for mobile menu navigation toggle -->
+  <script src="script.js"></script>
+</body>
+</html>
